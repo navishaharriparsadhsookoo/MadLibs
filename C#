@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp17
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Mad Lib Game on C#
+            Console.Write("What is your favorite colour: ");
+            string color = Console.ReadLine();
+            Console.WriteLine("Your favorite colour, " + color + " , is a great colour.");
+
+            Console.Write("How old are you: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("You are " + num1 + "years old.");
+
+            Console.ReadLine();
+        }
+    }
+}
